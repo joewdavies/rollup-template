@@ -1,0 +1,19 @@
+{
+  "name": "rollup-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "rollup -c rollup.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gridviz": "^2.0.31"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.1.0"
+  }
+}
